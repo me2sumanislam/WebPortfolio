@@ -1,0 +1,63 @@
+
+body{
+    font-family:'Loto',sans-serif;
+    font-family: 'open sans',sans-serif;
+  
+}
+
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+nav >ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    margin: 10px;
+}
+ 
+.text-primary{
+    background-color:#FD6E0A;
+    
+}
+.style-r{
+    color:#FD6E0A;
+    border: none;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45pxS;
+    font-weight: 800;
+}
+
+.btn-primary{
+    border:0px;
+    background-color:#FD6E0A;
+    color: white;
+    border-radius: 2px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+.header{
+    background-color:#FFF8F3;
+}
+.banner {
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture{
+    width: 250px;
+}
